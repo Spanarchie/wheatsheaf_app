@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { InfoPulseService } from './info-pulse.service';
+import { InfopulseService } from './infopulse.service';
 
-describe('InfoPulseService', () => {
+describe('InfopulseService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: InfoPulseService = TestBed.get(InfoPulseService);
+    const service: InfopulseService = TestBed.get(InfopulseService);
     expect(service).toBeTruthy();
   });
 });

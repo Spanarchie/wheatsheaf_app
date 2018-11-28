@@ -17,7 +17,13 @@ const routes: Routes = [
   },
   {
     path: 'infopage',
-    loadChildren: './infopage/infopage.module#InfopagePageModule' }
+    loadChildren: './infopage/infopage.module#InfopagePageModule' },
+  {
+    path: 'blog',
+    loadChildren: './blog/blog.module#BlogPageModule' },
+  {
+    path: 'about',
+    loadChildren: './about/about.module#AboutPageModule' }
 ];
 
 @NgModule({

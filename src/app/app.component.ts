@@ -23,6 +23,16 @@ export class AppComponent {
       {
           title: 'InfoPage',
           url: '/infopage',
+          icon: 'pulse'
+      },
+      {
+          title: 'Blog',
+          url: '/blog',
+          icon: 'grig'
+      },
+      {
+          title: 'About',
+          url: '/about',
           icon: 'information-circle'
       }
   ];
